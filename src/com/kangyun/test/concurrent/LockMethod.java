@@ -4,6 +4,9 @@ import com.kangyun.test.entity.LockMethodEntity;
 
 import static com.kangyun.test.constant.Constants.MS;
 
+/**
+ * 在静态方法以及非静态方法上加 synchronized 关键字
+ */
 public class LockMethod {
     public static void main(String[] args) {
         try {
